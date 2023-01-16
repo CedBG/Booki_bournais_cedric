@@ -1,0 +1,14 @@
+
+body {
+    font-family: Raleway;
+}
+
+.test {
+    font-size: 30px;
+}
+
+.animal, .romantic, .stars, .chart, .info {
+    width: 22px;
+    height: 22px;
+    fill: blue;
+}
