@@ -1,9 +1,10 @@
 
 body {
     font-family: Raleway;
+    max-width: 1400px;
 }
 
-.test {
+/* .test {
     font-size: 30px;
 }
 
@@ -11,4 +12,4 @@ body {
     width: 22px;
     height: 22px;
     fill: blue;
-}
+} */
