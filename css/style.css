@@ -1,12 +1,13 @@
 
 body {
-    font-family: Raleway;  
-    border: 1px solid; 
+    font-family: Raleway;
 }
 
 .container {
     margin: 0 auto;
-    max-width: 1400px;
+    border: 1px solid; 
+    margin: 0 auto;
+    width: 1400px;
 }
 
 h3 {
@@ -22,18 +23,19 @@ h3 {
     align-items: center; 
 }
 
+/* logo */
+
 .header .logo {
     margin-top: 44px;
     margin-left: 55px;
 }
 
+/* nav */
+
 .header .nav {
     margin-top: 48px;
     margin-right: 77px;
-}
-
-.header .link {
-    margin-right: 67px;
+    height: 29px;
 }
 
 .header-ul {
@@ -43,16 +45,41 @@ h3 {
     color: #000000;
 }
 
+.header-ul li {
+    width: 162px;
+    height: 29px;
+    display: block;
+}
+
+.header .link {
+    margin-right: 67px;
+    height: 29px;
+    width: 162px;
+    display: block;
+    text-align: center;
+}
+
+.header .link:hover {
+    border-top: #0065FC 2px solid;
+    color: #0065FC; 
+    display: block;
+}
+
+
+
 /* main */
+
+.search-text {
+    margin-top: 126px;
+    margin-left: 55px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    font-weight: 400;
+}
 
  /*  section-search */
 
- .section-search h3 {
-    margin-top: 126px;
-    margin-left: 55px;
- }
-
- .section-search p {
+ .search p {
     margin-top: 8px;
     margin-left: 55px;
     margin-bottom: 20px;
@@ -61,13 +88,28 @@ h3 {
  /* search-form */
 
 .loc {
-    width: 14px;
-    height: 18px;
+    width: 50px;
+    height: 49px;
 }
 
 .loupe {
-    width: 17px;
-    height: 17px;
+    width: 50px;
+    height: 49px;
+    fill: white;
+    background-color: #0065FC;
+    border-radius: 0 15px 15px 0;
+}
+
+#ville {
+    display: block;
+    height: 49px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+    color: #000000;
+    border: none;
+    border-top: 1px solid #F2F2F2;
+    border-bottom: 1px solid #F2F2F2;
 }
 
 .fz-18-700 {
@@ -109,6 +151,40 @@ h3 {
     background: #F2F2F2;
     border-radius: 15px 0 0 15px;
     border: #F2F2F2 1px solid;
+    display: block;
+}
+
+#rechercher {
+    display: block;
+    background-color: #0065FC;
+    color: white;
+    border-radius: 0 15px 15px 0;
+    border: none;
+    width: 123px;
+    height: 49px;
+    font-size: 18px;
+    font-weight: 700;
+    position: relative;
+    right: -6px;
+    bottom: -6px;
+}
+
+.main-location {
+    width: 332px;
+    display: flex;
+    align-items: center;
+}
+
+.fieldset {
+    display: flex;
+    margin-left: 55px;
+    margin-bottom: 32px;
+}
+
+.search-path {
+    width: 14px;
+    height: 18px;
+    display: block;
 }
 
 /* search-filter */
@@ -116,32 +192,43 @@ h3 {
 .money, .man, .heart, .dog {
     width: 22px;
     height: 22px;
+    fill: #0065FC;
+    padding-left: 20px;
 }
 
 .filter-fb {
      display: flex;
+     margin-bottom: 35px;
+     margin-left: 62px;
 }
 
 .svg-filter-fb {
     display: flex;
     align-items: center;
     border-radius: 25px 25px 25px 25px;
-    border-color: #F2F2F2 2px solid;
-    background-color: aqua;
+    border: #F2F2F2 2px solid;
+    justify-content: space-between;
 }
 
 .sz-money {
     width: 175px;
     height: 48px;
+    margin-right: 43px;
+    margin-left: 32px;
 }
+
 .sz-man {
     width: 136px;
     height: 48px;
+    margin-right: 40px;
 }
+
 .sz-heart {
     width: 172px;
     height: 48px;
+    margin-right: 36px;  
 }
+
 .sz-dog {
     width: 228px;
     height: 48px;
@@ -150,13 +237,20 @@ h3 {
 .filter-h3 {
     width: 54px;
     height: 21px;
-    margin: auto 0;
 }
 
 .filter-h3 h3 {
     font-size: 18px;
     font-weight: 700; 
+    line-height: 2.5;
 }
+
+.pr {
+    padding-right: 20px;
+    font-size: 17px;
+    font-weight: 700;
+}
+
 
 
 
