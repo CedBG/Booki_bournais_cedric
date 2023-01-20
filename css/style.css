@@ -1,15 +1,162 @@
 
 body {
-    font-family: Raleway;
+    font-family: Raleway;  
+    border: 1px solid; 
+}
+
+.container {
+    margin: 0 auto;
     max-width: 1400px;
 }
 
-/* .test {
-    font-size: 30px;
+h3 {
+    font-size: 22px;
+    font-weight: 700;
 }
 
-.animal, .romantic, .stars, .chart, .info {
+/* header */
+
+.logo-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+}
+
+.header .logo {
+    margin-top: 44px;
+    margin-left: 55px;
+}
+
+.header .nav {
+    margin-top: 48px;
+    margin-right: 77px;
+}
+
+.header .link {
+    margin-right: 67px;
+}
+
+.header-ul {
+    display: flex;
+    font-size: 16px;
+    font-weight: 400;
+    color: #000000;
+}
+
+/* main */
+
+ /*  section-search */
+
+ .section-search h3 {
+    margin-top: 126px;
+    margin-left: 55px;
+ }
+
+ .section-search p {
+    margin-top: 8px;
+    margin-left: 55px;
+    margin-bottom: 20px;
+ }
+
+ /* search-form */
+
+.loc {
+    width: 14px;
+    height: 18px;
+}
+
+.loupe {
+    width: 17px;
+    height: 17px;
+}
+
+.fz-18-700 {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.blue {
+    background-color: #0065FC;
+    display: flex;
+    align-items: center; 
+    width: 159px;
+    height: 49px;
+    border-radius: 0 15px 15px 0;
+}
+
+.white {
+    color: white;
+}
+
+.text-area {
+    width: 332px;
+    height: 49px;
+    display: flex;
+    align-items: center; 
+    border-radius: 15px;
+    border: #F2F2F2 1x solid;
+}
+
+.mars {
+    display: flex;
+}
+
+.mars-search {
+    display: flex;
+}
+
+.bk-loc {
+    background: #F2F2F2;
+    border-radius: 15px 0 0 15px;
+    border: #F2F2F2 1px solid;
+}
+
+/* search-filter */
+
+.money, .man, .heart, .dog {
     width: 22px;
     height: 22px;
-    fill: blue;
-} */
+}
+
+.filter-fb {
+     display: flex;
+}
+
+.svg-filter-fb {
+    display: flex;
+    align-items: center;
+    border-radius: 25px 25px 25px 25px;
+    border-color: #F2F2F2 2px solid;
+    background-color: aqua;
+}
+
+.sz-money {
+    width: 175px;
+    height: 48px;
+}
+.sz-man {
+    width: 136px;
+    height: 48px;
+}
+.sz-heart {
+    width: 172px;
+    height: 48px;
+}
+.sz-dog {
+    width: 228px;
+    height: 48px;
+}
+
+.filter-h3 {
+    width: 54px;
+    height: 21px;
+    margin: auto 0;
+}
+
+.filter-h3 h3 {
+    font-size: 18px;
+    font-weight: 700; 
+}
+
+
+
