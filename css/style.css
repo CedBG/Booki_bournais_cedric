@@ -384,6 +384,7 @@ h3 {
     width: 343px;
     height: 144px;
     background-color: white;
+    display: flex;
 }
 
 .box-as img {
@@ -413,12 +414,14 @@ h3 {
     font-size: 16px;
     font-weight: 700;
     color: #000000;
+    display: inline-block;
 }
 
 .text-as {
     font-size: 14px;
     font-weight: 600;
     color: #000000;
+    display: inline-block;
 }
 
 .btn-as {
@@ -437,6 +440,12 @@ h3 {
     fill: #F2F2F2;
 }
 
+.as-svg {
+    width: 18px;
+    height: 15.75px;
+    fill: #0065FC;
+    margin-right: 42px;
+}
 
 
 
