@@ -384,7 +384,7 @@ h3 {
 .heb-aside {
     display: flex;
     width: 1340px;
-    h626px
+    height: 626px;
 }
 
 .box-as {
@@ -463,6 +463,13 @@ h3 {
     height: 15.75px;
     fill: #0065FC;
     margin-right: 42px;
+}
+
+/* section-activités */
+
+.card-act {
+    width: 1337px;
+    height: 493px;
 }
 
 
