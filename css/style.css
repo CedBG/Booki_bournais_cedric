@@ -6,7 +6,6 @@ body {
 .container {
     margin: 0 auto;
     border: 1px solid; 
-    margin: 0 auto;
     width: 1400px;
 }
 
@@ -208,6 +207,19 @@ h3 {
     border-radius: 25px 25px 25px 25px;
     border: #F2F2F2 2px solid;
     justify-content: space-between;
+    position: relative;
+}
+
+.svg-filter-fb a {
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.svg-filter-fb:hover {
+    background-color: #DEEBFF;
 }
 
 .sz-money {
@@ -394,7 +406,8 @@ h3 {
     display: flex;
     margin-bottom: 33px;
     border-radius: 15px;
-    box-shadow: 3px rgba(0, 0, 0, 0.1) outset;
+    box-shadow: 3px rgba(0, 0, 0, 0.1);
+    position: relative;
 }
 
 .box-as img {
@@ -406,6 +419,7 @@ h3 {
     border-bottom: white 5px solid;
     object-fit: cover;
     display: inline-block;
+    margin-right: 15px;
 }
 
 .box-as span {
@@ -429,7 +443,8 @@ h3 {
     font-size: 16px;
     font-weight: 700;
     color: #000000;
-    display: inline-block;
+    display: inline-block; 
+    margin-top: 15px; 
 }
 
 .text-as {
@@ -444,7 +459,6 @@ h3 {
 .btn-as {
     border: none;
     background-color: white;
-    margin-left: 15px;
 }
 
 .btn-as svg {
@@ -465,14 +479,101 @@ h3 {
     margin-right: 42px;
 }
 
-/* section-activités */
-
-.card-act {
-    width: 1337px;
-    height: 493px;
+.box-as a {
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 100%;
 }
 
+/* section-activités */
 
+.section-act {
+    width: 1337px;
+    height: 493px;
+    margin-bottom: 61px;
+}
 
+.act-title {
+    margin-left: 50px;
+    margin-top: 60px;
+    margin-bottom: 18.47px;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.card-act {
+    width: 302px;
+    height: 444.51px;
+    border-radius: 20px;
+    box-shadow: 0 4px 4px 0 rgba(0,0,0,0.25);
+    margin-left: 50px;
+    position: relative;
+}
+
+.card-act img {
+    height: 389px;
+    width: 302px;
+    border-radius: 20px 20px 0 0;
+    object-fit: cover;
+}
+
+.act-p h3 {
+    font-size: 16px;
+    font-weight: 700;
+    margin-left: 19px;
+    margin-top: 20px;
+}
+
+.card-link {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+.card-4 {
+    display: flex;
+    width: 1337px;
+    height: 493px;
+    justify-content: space-between;
+}
+
+/* footer */
+
+.footer {
+    width: 1339px;
+    height: 225px;
+    display: flex;
+    justify-content: center;
+    background-color: #F2F2F2;
+    margin-left: 48px;
+    margin-right: 53px;
+    padding-top: 45px;
+    padding-left: 70px;
+}
+
+.footer-heb {
+    margin-left: 347px;
+    margin-right: 239px;
+}
+
+.footer h3 {
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.footer li {
+    margin-bottom: 12px;
+}
+
+.footer a {
+    font-size: 16px;
+    font-weight: 400;
+    color: #000000;
+}
 
 
