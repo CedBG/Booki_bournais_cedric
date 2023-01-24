@@ -9,17 +9,11 @@ body {
     width: 1400px;
 }
 
-h3 {
-    font-size: 22px;
-    font-weight: 700;
-}
-
 /* header */
 
 .logo-nav {
     display: flex;
     justify-content: space-between;
-    align-items: center; 
 }
 
 /* logo */
@@ -37,10 +31,7 @@ h3 {
 }
 
 .header-ul {
-    display: flex;
-    font-size: 16px;
-    font-weight: 400;
-    color: #000000;
+    display: flex;  
 }
 
 .header-ul li {
@@ -55,52 +46,75 @@ h3 {
     display: block;
     text-align: center;
     padding-top: 48px;
+    color: #000000;
+    font-size: 16px;
+    font-weight: 400;
 }
 
 .header .link:hover {
     border-top: #0065FC 2px solid;
     color: #0065FC; 
     display: block;
-}
-
-
-
-/* main */
-
-.search-text {
-    margin-top: 126px;
-    margin-left: 55px;
-    margin-bottom: 20px;
     font-size: 16px;
     font-weight: 400;
 }
 
- /*  section-search */
+/* main */
 
- .search p {
+/*  section-search */
+
+.search-text h3 {
+    margin-top: 53px;
+    margin-left: 55px;
+    margin-bottom: 20px;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+ .search-text p {
     margin-top: 8px;
     margin-left: 55px;
     margin-bottom: 20px;
+    font-size: 16px;
+    font-weight: 400;
+
  }
 
  /* search-form */
 
-.loc {
-    width: 50px;
-    height: 49px;
+.fieldset {
+    display: flex;
+    margin-left: 55px;
+    margin-bottom: 32px;
 }
 
-.loupe {
+.main-location {
+    width: 332px;
+    display: flex;
+    align-items: center;
+}
+
+.bk-loc {
+    background: #F2F2F2;
+    border-radius: 15px 0 0 15px;
+    border: #F2F2F2 1px solid;
+    display: flex;
     width: 50px;
     height: 49px;
-    fill: white;
-    background-color: #0065FC;
-    border-radius: 0 15px 15px 0;
+    align-items: center;
+    justify-content: center;
+}
+
+.loc {
+    display: block;
+    width: 14px;
+    height: 18px;
 }
 
 #ville {
     display: block;
     height: 49px;
+    width: 232px;
     text-align: center;
     font-size: 18px;
     font-weight: 700;
@@ -110,9 +124,20 @@ h3 {
     border-bottom: 1px solid #F2F2F2;
 }
 
-.fz-18-700 {
-    font-size: 18px;
-    font-weight: 700;
+.bk-loupe {
+    width: 50px;
+    height: 49px;
+    background-color: #0065FC;
+    border-radius: 0 15px 15px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.loupe {
+    width: 17px;
+    height: 17px;
+    fill: white;
 }
 
 .blue {
@@ -137,18 +162,9 @@ h3 {
     border: #F2F2F2 1x solid;
 }
 
-.mars {
-    display: flex;
-}
-
-.mars-search {
-    display: flex;
-}
-
-.bk-loc {
-    background: #F2F2F2;
-    border-radius: 15px 0 0 15px;
-    border: #F2F2F2 1px solid;
+.search-path {
+    width: 14px;
+    height: 18px;
     display: block;
 }
 
@@ -158,31 +174,13 @@ h3 {
     color: white;
     border-radius: 0 15px 15px 0;
     border: none;
-    width: 123px;
+    width: 132px;
     height: 49px;
     font-size: 18px;
     font-weight: 700;
     position: relative;
-    right: -6px;
-    bottom: -6px;
-}
-
-.main-location {
-    width: 332px;
-    display: flex;
-    align-items: center;
-}
-
-.fieldset {
-    display: flex;
-    margin-left: 55px;
-    margin-bottom: 32px;
-}
-
-.search-path {
-    width: 14px;
-    height: 18px;
-    display: block;
+    right: 49px;
+    bottom: 0px;
 }
 
 /* search-filter */
@@ -192,6 +190,7 @@ h3 {
     height: 22px;
     fill: #0065FC;
     padding-left: 20px;
+    padding-right: 10px;
 }
 
 .filter-fb {
@@ -200,12 +199,22 @@ h3 {
      margin-left: 62px;
 }
 
+.filter-h3 {
+    width: 54px;
+    height: 21px;
+}
+
+.filter-h3 h3 {
+    font-size: 18px;
+    font-weight: 700; 
+    line-height: 2.5;
+}
+
 .svg-filter-fb {
     display: flex;
     align-items: center;
     border-radius: 25px 25px 25px 25px;
     border: #F2F2F2 2px solid;
-    justify-content: space-between;
     position: relative;
 }
 
@@ -241,23 +250,11 @@ h3 {
 }
 
 .sz-dog {
-    width: 228px;
-    height: 48px;
-}
-
-.filter-h3 {
-    width: 54px;
-    height: 21px;
-}
-
-.filter-h3 h3 {
-    font-size: 18px;
-    font-weight: 700; 
-    line-height: 2.5;
+    width: 226px;
+    height: 50px;
 }
 
 .pr {
-    padding-right: 20px;
     font-size: 17px;
     font-weight: 700;
 }
@@ -275,7 +272,6 @@ h3 {
     width: 4px;
     height: 10px;
     fill: #0065FC;
-    stroke: #F2F2F2 solid 3px;
     margin-right: 11px;
 }
 
@@ -291,7 +287,7 @@ h3 {
     width: 880px;
     height: 626px;
     margin-left: 50px;
-    border-radius: 25px 25px 25px 25px;
+    border-radius: 20px 20px 20px 20px;
     margin-bottom: 60px;
     padding-top: 42px;
     padding-left: 40px;
@@ -311,13 +307,15 @@ h3 {
     background-color: white;
     border-radius: 20px;
     position: relative;
+    box-shadow: 0 3px 15px 0 rgba(0, 0, 0, 0.1);
+    margin-right: 31px;
 }
 
 .card-h img {
     width: 246px;
     height: 124px;
     border-radius: 20px 20px 0 0;
-    border-inline: 5px solid white;
+    border: 5px solid white;
     object-fit: cover;
 }
 
@@ -325,7 +323,6 @@ h3 {
     font-size: 16px;
     font-weight: 700;
     color: #000000;
-    display: inline-block;
     margin-top: 4px;
     margin-bottom: 9px;
     margin-left: 16px;
@@ -335,8 +332,7 @@ h3 {
     font-size: 14px;
     font-weight: 600;
     color: #000000;
-    display: inline-block;
-    margin-bottom: 11px;
+    margin-bottom: 9px;
     margin-left: 16px;
 }
 
@@ -352,7 +348,9 @@ h3 {
     display: flex;
     border: none;
     background-color: white;
-    margin-left: 16px;  
+    margin-left: 16px;
+    margin-right: 2px;
+    margin-bottom: 11px;
 }
 
 .btn-h .star-g {
@@ -363,7 +361,7 @@ h3 {
     width: 12px;
     height: 12px;
     fill: #0065FC;
-    margin-right: 2px;
+   
 }
 
 .aff-plus {
@@ -374,18 +372,12 @@ h3 {
 
 .box-1 {
     display: flex;
-    justify-content: space-between;
     margin-bottom: 30px;
 }
 
 .box-2 {
     display: flex;
-    justify-content: space-between;
     margin-bottom: 40px;
-}
-
-.star-g {
-    fill: #F2F2F2;
 }
 
 /* aside */
@@ -398,12 +390,14 @@ h3 {
     padding-left: 37px;
     padding-top: 41px;
     margin-left: 40px;
+    margin-right: 50px;
 }
 
 .heb-aside {
     display: flex;
-    width: 1340px;
+    width: 1400px;
     height: 626px;
+    justify-content: center;
 }
 
 .box-as {
@@ -421,11 +415,8 @@ h3 {
     width: 137px;
     height: 144px;
     border-radius: 20px 0 0 20px;
-    border-inline: white 5px solid;
-    border-top: white 5px solid;
-    border-bottom: white 5px solid;
+    border: white 5px solid;
     object-fit: cover;
-    display: inline-block;
     margin-right: 15px;
 }
 
@@ -450,16 +441,14 @@ h3 {
     font-size: 16px;
     font-weight: 700;
     color: #000000;
-    display: inline-block; 
-    margin-top: 15px; 
+    margin-top: 15px;
+    margin-bottom: 7px;
 }
 
 .text-as {
     font-size: 14px;
     font-weight: 600;
     color: #000000;
-    display: inline-block;
-    margin-top: 7px;
     margin-bottom: 44px;
 }
 
@@ -469,9 +458,9 @@ h3 {
 }
 
 .btn-as svg {
-    width: 18px;
-    height: 15.75px;
-    margin-right: 2px;
+    width: 12px;
+    height: 12px;
+    padding-right: 2px;
     fill: #0065FC;
 }
 
@@ -515,7 +504,6 @@ h3 {
     height: 444.51px;
     border-radius: 20px;
     box-shadow: 0 4px 4px 0 rgba(0,0,0,0.25);
-    margin-left: 50px;
     position: relative;
 }
 
@@ -543,9 +531,9 @@ h3 {
 
 .card-4 {
     display: flex;
-    width: 1337px;
     height: 493px;
     justify-content: space-between;
+    margin-left: 50px;
 }
 
 /* footer */
@@ -554,17 +542,19 @@ h3 {
     width: 1339px;
     height: 225px;
     display: flex;
-    justify-content: center;
     background-color: #F2F2F2;
-    margin-left: 48px;
-    margin-right: 53px;
+    margin-left: 29px;
     padding-top: 45px;
     padding-left: 70px;
 }
 
-.footer-heb {
-    margin-left: 347px;
+.footer-box-1 {
+    margin-left: 70px;
+}
+
+.footer-box-2 {
     margin-right: 239px;
+    margin-left: 230px;
 }
 
 .footer h3 {
