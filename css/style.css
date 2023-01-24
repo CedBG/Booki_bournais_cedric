@@ -32,7 +32,6 @@ h3 {
 /* nav */
 
 .header .nav {
-    margin-top: 48px;
     margin-right: 77px;
     height: 29px;
 }
@@ -46,16 +45,16 @@ h3 {
 
 .header-ul li {
     width: 162px;
-    height: 29px;
-    display: block;
+    height: 40px;
 }
 
 .header .link {
     margin-right: 67px;
-    height: 29px;
+    height: 48px;
     width: 162px;
     display: block;
     text-align: center;
+    padding-top: 48px;
 }
 
 .header .link:hover {
@@ -303,7 +302,6 @@ h3 {
 .section-heb h2 {
     font-size: 22px;
     font-weight: 700;
-    margin-left: 40px;
     margin-bottom: 23px;
 }
 
@@ -311,7 +309,8 @@ h3 {
     width: 246px;
     height: 199px;
     background-color: white;
-    border-radius: 20px; 
+    border-radius: 20px;
+    position: relative;
 }
 
 .card-h img {
@@ -339,6 +338,14 @@ h3 {
     display: inline-block;
     margin-bottom: 11px;
     margin-left: 16px;
+}
+
+.card-h a {
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 100%;
 }
 
 .btn-h {
