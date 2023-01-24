@@ -1,6 +1,6 @@
 
 body {
-    font-family: Raleway;
+    font-family: Raleway;   
 }
 
 .container {
@@ -573,4 +573,13 @@ body {
     color: #000000;
 }
 
+/* responsive */
 
+@media screen and (min-width:768px) and (max-width:991px) {
+    .heb-aside {
+        display: inline;
+    }
+    .pop-fb {
+        display: ;
+    }
+}
