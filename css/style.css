@@ -449,7 +449,7 @@ body {
     font-size: 14px;
     font-weight: 600;
     color: #000000;
-    margin-bottom: 44px;
+    margin-bottom: 30px;
 }
 
 .btn-as {
@@ -576,10 +576,90 @@ body {
 /* responsive */
 
 @media screen and (min-width:768px) and (max-width:991px) {
+    
+    .container {
+        width: 991px;
+    }
+
+    /* header */
+
+    .logo-nav ul {
+        margin-left: 550px;
+    }
+
+    /* filter */
+
+    .filter-fb {
+        width: 846px;
+    }
+
+    .svg-filter-fb {
+        margin-right: 22px;
+    }
+
+    /* aside */
+
     .heb-aside {
         display: inline;
     }
-    .pop-fb {
-        display: ;
+
+    .aside {
+        width: 883px;
+        height: 278px;
+        margin-left: 50px;
     }
+
+    .pop-fb {
+        display: flex;
+    }
+
+    .box-as {
+        margin-right: 20px;
+        width: 252px;
+        height: 144px;
+    }
+
+    .title-as {
+        font-size: 14px;
+    }
+
+    .text-as {
+        font-size: 13px;
+    }
+
+    /* activites */
+
+    .section-act {
+        width: 878px;
+        height: 331px;
+    }
+
+    .card-act {
+        width: 182px;
+        height: 267px;
+    }
+
+    .act-img img {
+        width: 182px;
+        height: 211px;
+    }
+
+    .act-p {
+        width: 182px;
+        height: 56px;
+    }
+
+    /* footer */
+
+    .footer {
+        width: 879.65px;
+        height: 225px;
+    }
+
+    .footer-box-2 {
+        margin-left: 83px;
+        margin-right: 83px;
+    }
+
+
 }
